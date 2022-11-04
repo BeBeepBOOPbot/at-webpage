@@ -213,8 +213,6 @@ header {
         }
 
         .headerWraper {
-            background: burlywood;
-
             flex-direction: column;
         }
 
