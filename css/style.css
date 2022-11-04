@@ -243,14 +243,14 @@ header {
     width: 100vw;
     position: absolute;
     z-index: 4;
-    transform: translatey(-100%);
+    transform: translatey(-99%);
 }
 
 .spacer2 {
     width: 100vw;
     position: absolute;
     z-index: 4;
-    transform: translatey(100%) rotate(180deg) rotateY(180deg);
+    transform: translatey(99%) rotate(180deg) rotateY(180deg);
     position: absolute;
     bottom: 0;
 
