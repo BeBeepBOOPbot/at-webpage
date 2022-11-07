@@ -14,7 +14,7 @@
     </button>
     <nav>
         <a class="logo" href="">Avery Thomas</a>
-        <ul data-visible="false" id="nav-primary"  class="navLink">
+        <ul data-visible="false" id="nav-primary"  class="navLink flex">
             <li><a href="">services</a></li>
             <li><a href="">projects</a></li>
             <li><a href="">About Me</a></li>
@@ -26,13 +26,13 @@
         </button> 
     </nav>
     <main>
-        <header>
-            <div class="headerWraper">
+        <header class="flex">
+            <div class="headerWraper flex">
                 <div class="header">    
-                    <p class="headerName">Avery Thomas</p>
+                    <h1>Avery Thomas</h1>
                     <p class="headerInfo">computer nerd, programer, web dev, band nerd, linux nerd, over all a nerd</p>
                 </div>                
-                <div class="averyBackground">
+                <div class="averyBackground flex">
                     <img class="avery" src="images/avery.svg" alt="a picture of avery">
                 </div>
             </div>
@@ -42,9 +42,9 @@
             <img class="blob" src="./images/blob.svg" alt="">
                 <div class="firstWraper">
                     <div class="firstTxt">
-                        <h2>
+                        <h3>
                             What I can do
-                        </h2>
+                        </h3>
                         <p>
                             i am an expert in all things ranging in computer, IT, digital security and have ben ever sence i was a little nerd like elementry school young
                         </p>
@@ -53,9 +53,9 @@
                         <img src="./images/logos.svg" alt="">
                     </div>
                     <div class="firstTxt2">
-                        <h2>
+                        <h3>
                             Why me ? 
-                        </h2>
+                        </h3>
                         <p>
                             because i am an expert in all things ranging in computer, IT, digital security and have ben ever sence i was a little nerd like elementry school young you ignorant nerd
                         </p>
@@ -98,9 +98,35 @@
             </div>
         </section>
         <section id="contactMe" class="contactForm">
-            
+            <div class="formWraper">
+                <input type="text" name="name" id="name" value="name">
+                <input type="email" name="email" id="email" value="email">
+                <input type="text" name="subject" id="subject" value="subject">
+                <input type="text" name="phone number" id="phone" value="phone number">
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit" id="submit">
+            </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="social">
+            <ul>
+                <li><a href="">gitHub</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">Instagram</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="footerLinks">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">services</a></li>
+                <li><a href="">projects</a></li>
+                <li><a href="">about me</a></li>
+                <li><a href="">other</a></li>
+            </ul>
+        </div>  
+        <p>Website by: Avery Thomas </p>      
+    </footer>
 </body>
 </html>
