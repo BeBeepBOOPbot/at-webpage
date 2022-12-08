@@ -73,8 +73,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 225px;
     height: 600px;
+    width: 260px;
     overflow: hidden;
 }
 
@@ -84,9 +85,8 @@
         .header p {margin-left: 20vw;text-align: right;}
         .averyBackground {
             order: 1;
-            width: var(--Max-Width);
             border-radius: 20px;
-            width: auto;
+            width: var(--maxW-3);
         }
         
     }
