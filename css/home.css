@@ -69,11 +69,13 @@
 }
 
 .averyBackground {
-    background: var(--main);
+    background: var(--main) url('../images/avery.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 10px;
     height: 600px;
     overflow: hidden;
-}   .avery {padding: 10px;}
+}
 
     @media (max-width: 1010px) {
         .headerWraper {flex-direction: column;}
